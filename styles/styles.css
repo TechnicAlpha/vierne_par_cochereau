@@ -17,6 +17,11 @@ h1{
 
 #title img{
 	overflow: auto;
-	object-fit: scale-down;
-	max-block-size: fit-content;
+        max-height: 100%;
+}
+
+.titles{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
 }
